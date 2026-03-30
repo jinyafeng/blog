@@ -2,7 +2,7 @@
   <div class="home">
     <div class="header">
       <h1>我的个人博客</h1>
-      <p>记录自己的所见，所思和所得</p>
+      <p>记录生活中的所见，所思，和所得</p>
     </div>
     <div class="post-list">
       <el-card v-for="post in posts" :key="post.id" class="post-card" @click="goToPost(post.slug)">
