@@ -1,0 +1,16 @@
+# .NET 编译生成文件
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+**/*.suo
+**/*.log
+
+# 系统临时文件
+.DS_Store
+Thumbs.db
+
+# Node.js 依赖
+node_modules/
+package-lock.json
+yarn.lock
